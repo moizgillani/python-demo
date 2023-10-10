@@ -1,0 +1,13 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=61.0"]
+[project]
+name = "sdksio-swagger-petstore-3-sdk"
+description = "The Merchant Case Management API allows the merchants to create, search & get the details of a case   # Authentication  <SecurityDefinitions />"
+version = "1.0.0"
+readme = "README.md"
+requires-python = ">=3.7"
+authors = [{name = "Developer Support", email = "APICustomerIntegration@fisglobal.com"}]
+dependencies = ["apimatic-core~=0.2.0", "apimatic-core-interfaces~=0.1.0", "apimatic-requests-client-adapter~=0.1.0", "python-dateutil~=2.8.1", "enum34~=1.1, >=1.1.10"]
+[project.optional-dependencies]
+testutils = ["pytest>=7.2.2"]
